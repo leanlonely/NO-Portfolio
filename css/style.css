@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Montserrat&family=Mukta&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.box{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 625px;
+    background: url(https://kartinkin.net/uploads/posts/2021-01/1611331510_43-p-fon-dlya-veb-dizaina-46.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.header_block1{
+    width: 90%;
+    height: 150px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.header_h2{
+    font-size: 40px;
+    font-family: "Bruno Ace SC";
+    margin-left: 2%;
+    color: white;
+    animation: hi 1s 0s  ease;
+}
+@keyframes hi{
+  0%{
+    transform: rotate(0deg);
+    font-size: 40px;
+  }
+  25%{
+    transform: rotate(-10deg);
+    font-size: 40px;
+  }
+  50%{
+    transform: rotate(10deg);
+    font-size: 50px;
+  }
+  75%{
+    transform: rotate(-10deg);
+    font-size: 50px;
+  }
+  100%{
+    transform: rotate(0deg);
+    font-size: 40px;
+  }
+}
+.header_h2_2{
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+    font-family: "Montserrat";
+    margin-left: 9%;
+}
+.header_block2{
+    width: 30%;
+    height: 100px;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(255, 197, 6);
+    font-family: "Noto Sans";
+}
+.header_block3{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header_p{
+    width: 100%;
+    color: rgb(255, 209, 6);
+    font-size: 20px;
+    text-align: center;
+}
+.aboute_me{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section1_h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 35px;
+    font-family: "Mukta";
+}
+.aboute_me_item1{
+    width: 25%;
+    height: 400px;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboute_me_item2{
+    width: 25%;
+    height: 400px;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboute_me_item3{
+    width: 25%;
+    height: 400px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.my_skils{
+    width: 100%;
+    height: 550px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.my_skils_item1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.section2_h2{
+    color: rgb(255, 209, 6);
+    font-size: 35px;
+    font-family: "Mukta";
+}
+.all_item{
+    width: 20%;
+    height: 2px;
+    background: black;
+}
+.aboute_me_img{
+    width: 20%;
+    animation: spin 1.5s 0s infinite ease-in-out;
+}
+@keyframes spin{
+  0%{
+    transform: perspective(400px) rotateY(0deg);
+  }
+  100%{
+    transform: perspective(400px) rotateY(360deg);
+  }
+}
+.aboute_me_p{
+    text-align: center;
+}
+.my_skils_item2{
+  width: 35%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+.my_skils_item3{
+  width: 35%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.my_skils4{
+  width: 30%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.my_skils5{
+  width: 45%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.my_skils6{
+  width: 75%;
+  height: 10px;
+  border-radius: 50px;
+  background: rgb(205, 250, 6);
+  animation: anim1 1s .0s infinite alternate-reverse ease-in;
+}
+@keyframes anim1{
+  0%{
+   width: 50%;
+  }
+  100%{
+   width: 80%;
+  }
+}
+.my_skils7{
+  width: 15%;
+  height: 10px;
+  border-radius: 50px;
+  background: rgb(255, 17, 0);
+  animation: anim2 1s .2s infinite alternate-reverse ease-in;
+}
+@keyframes anim2{
+  0%{
+   width: 20%;
+  }
+  100%{
+   width: 40%;
+  }
+}
+.my_skils8{
+  width: 85%;
+  height: 10px;
+  border-radius: 50px;
+  background: rgb(58, 216, 10);
+  animation: anim3 1s .4s infinite alternate-reverse ease-in;
+}
+@keyframes anim3{
+  0%{
+   width: 80%;
+  }
+  100%{
+   width: 100%;
+  }
+}
+.my_skils9{
+  width:45%;
+  height: 10px;
+  border-radius: 50px;
+  background: rgb(255, 251, 0);
+  animation: anim4 1s .6s infinite alternate-reverse ease-in;
+}
+@keyframes anim4{
+  0%{
+   width: 70%;
+  }
+  100%{
+   width: 90%;
+  }
+}
+.my_skils_item3_h2{
+  text-align: center;
+  width: 100%;
+}
+.my_skils_item3_block{
+  width: 42%;
+  height: 200px;
+}
+.item3img{
+  width: 100%;
+  height: 100%;
+}
+.item3img:hover{
+  animation: rotate 1s ease-in-out;
+}
+@keyframes rotate{
+  0%{
+  transform: rotate(0);
+  }
+  100%{
+  transform: rotate(360deg);
+  }
+}
+.portfolio{
+    width: 100%;
+    height: 950px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio_item1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.section3_h2{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: "Mukta";
+}
+.all_item2{
+    width: 20%;
+    height: 2px;
+    background: black;
+}
+.portfolio_item2{
+  width: 40%;
+  height: 350px;
+  background: gray;
+  border-radius: 30px;
+  -webkit-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  transition: all .125s ease;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio_item2:hover{
+  transform: scale(.9);
+}
+.portfolio_item2 .portfolio_img{
+  transition: all .125s ease;
+}
+.portfolio_item2:hover img{
+  transform: scale(1.25);
+}
+.portfolio_item2:hover .portfolio_item6{
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
+}
+.portfolio_item6{
+  opacity: 0;
+  transition: all .125s ease;
+  color: white;
+  font: 600 1.125rem Tahoma;
+  padding: 1.25rem;
+  z-index: 30;
+}
+.portfolio_item2::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  z-index: 20;
+  display: none;
+}
+.portfolio_item2:hover:after{
+  display: block;
+}
+.portfolio_item3{
+  width: 40%;
+  height: 350px;
+  background: gray;
+  border-radius: 30px;
+  -webkit-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  transition: all .125s ease;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio_item3:hover{
+  transform: scale(.9);
+}
+.portfolio_item3 .portfolio_img1{
+  transition: all .125s ease;
+}
+.portfolio_item3:hover img{
+  transform: scale(1.25);
+}
+.portfolio_item3:hover .portfolio_item7{
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
+}
+.portfolio_item7{
+  opacity: 0;
+  transition: all .125s ease;
+  color: white;
+  font: 600 1.125rem Tahoma;
+  padding: 1.25rem;
+  z-index: 30;
+}
+.portfolio_item3::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  z-index: 20;
+  display: none;
+}
+.portfolio_item3:hover:after{
+  display: block;
+}
+.portfolio_p{
+  font-size: 30px;
+}
+.portfolio_img1{
+  width: 15%;
+  height: 90px;
+  position: absolute;
+  left: 42%;
+  top: 32%;
+}
+.portfolio_item4{
+  width: 40%;
+  height: 350px;
+  background: gray;
+  border-radius: 30px;
+  -webkit-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+}
+.portfolio_item5{
+  width: 40%;
+  height: 350px;
+  background: gray;
+  border-radius: 30px;
+  -webkit-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 11px 11px 7px 2px rgba(0, 0, 0, 0.24);
+}
+.portfolio_img{
+  width: 100%;
+  height: 100%;
+}
+footer{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  margin-top: 2%;
+  background: url(https://kartinkin.net/uploads/posts/2021-07/1626821784_4-kartinkin-com-p-veb-fon-krasivo-4.jpg);
+}
+.footer_item{
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: baseline;
+}
+.footer_item1{
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_img{
+  width: 16%;
+  height: 60px;
+}
+.footer_h2{
+  margin-left: 5%;
+}
+.footer_p{
+  font-size: 15px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+  
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background:rgba(0, 0, 0, 0.9) ;
+    transition-duration: .5s;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    text-decoration:underline;
+  }
